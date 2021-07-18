@@ -15,7 +15,7 @@ The experiments were conducted on a widely used public real-world dataset named 
   
 ### Approaches
 #### Comparing Approaches
-We have implemented DiQoS and other four existing representative approaches.  
+We have implemented DiSeR and other five existing representative approaches.  
 **DSL-RS**: This baseline approach randomly selects k services from S_DSL.  
 **DSL-KNN** [2]: This approach models services recommendation as a k nearest neighbors problem. It selects k services from S_DSL that are most similar to s_r. This is the first attempt to solve the problem of personalized quality centric service recommendation.  
 **DQCSR-CC** and **DQCSR-CR** [3]: These approaches first identify the S_DSL. Then the identified services are clustered with K-Means algorithm. DQCSR-CC selects a service from each cluster which is nearest to its cluster center, and DQCSR-CR selects a service from each cluster whose coverage region has the minimum radius. This is the first attempt to handle users’ uncertain quality correlation in service recommendation.  
