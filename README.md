@@ -19,9 +19,9 @@ We have implemented DiSeR and other five existing representative approaches.
 **DSL-RS**: This baseline approach randomly selects k services from S_DSL.  
 **DSL-KNN** [2]: This approach models services recommendation as a k nearest neighbors problem. It selects k services from S_DSL that are most similar to s_r. This is the first attempt to solve the problem of personalized quality centric service recommendation.  
 **DQCSR-CC** and **DQCSR-CR** [3]: These approaches first identify the S_DSL. Then the identified services are clustered with K-Means algorithm. DQCSR-CC selects a service from each cluster which is nearest to its cluster center, and DQCSR-CR selects a service from each cluster whose coverage region has the minimum radius. This is the first attempt to handle users’ uncertain quality correlation in service recommendation.  
+**DiSeR** [4]: This approaches first identify the S_DSL. Then a service network is built based on the identified services. A diversity measurement is introduced based on the service network. At last, a diversified service ranking model is proposed for the final service resommendation.  
 [2] Y. Zhang, X. Ai, Q. He, X. Zhang, W. Dou, F. Chen, L. Chen, and Y. Yang, “Personalized Quality Centric Service Recommendation,” International Conference on Service-Oriented Computing, 2017, pp. 528-544.  
 [3] Y. Zhang, L. Wu, Q. He, F. Chen, S. Deng, and Y. Yang, “Diversified Quality Centric Service Recommendation,” IEEE International Conference on Web Services, 2019, pp. 126-133.  
-**DiSeR** [4]: This approaches first identify the S_DSL. Then a service network is built based on the identified services. A diversity measurement is introduced based on the service network. At last, a diversified service ranking model is proposed for the final service resommendation.  
 [4] G. Kang, J. Liu, B. Cao, and Y. Xiao, "Diversified QoS-Centric Service Recommendation for Uncertain QoS Preferences," in IEEE International Conference on Services Computing, Beijing, China, 2020, pp. 288-295: IEEE.
 
 #### Implementation
